@@ -1,0 +1,5 @@
+import joblib
+
+# Save your best model
+
+joblib.dump(best_rf, 'best_rf_model.joblib')
